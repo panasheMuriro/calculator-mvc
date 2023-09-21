@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1564B9672ABBD39A00515808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1564B9662ABBD39A00515808 /* main.m */; };
 		1564B9702ABBD5D400515808 /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1564B96F2ABBD5D400515808 /* CalculatorModel.m */; };
+		15780C362ABC975A00169CDD /* CalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C352ABC975A00169CDD /* CalculatorView.m */; };
+		15780C3A2ABC99E300169CDD /* CalculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15780C392ABC99E300169CDD /* CalculatorController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		1564B9662ABBD39A00515808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1564B96E2ABBD5D400515808 /* CalculatorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
 		1564B96F2ABBD5D400515808 /* CalculatorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
+		15780C342ABC975A00169CDD /* CalculatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorView.h; sourceTree = "<group>"; };
+		15780C352ABC975A00169CDD /* CalculatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorView.m; sourceTree = "<group>"; };
+		15780C382ABC99E300169CDD /* CalculatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorController.h; sourceTree = "<group>"; };
+		15780C392ABC99E300169CDD /* CalculatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				1564B9662ABBD39A00515808 /* main.m */,
 				1564B96E2ABBD5D400515808 /* CalculatorModel.h */,
 				1564B96F2ABBD5D400515808 /* CalculatorModel.m */,
+				15780C342ABC975A00169CDD /* CalculatorView.h */,
+				15780C352ABC975A00169CDD /* CalculatorView.m */,
+				15780C382ABC99E300169CDD /* CalculatorController.h */,
+				15780C392ABC99E300169CDD /* CalculatorController.m */,
 			);
 			path = "calculator-mvc";
 			sourceTree = "<group>";
@@ -125,6 +135,8 @@
 			files = (
 				1564B9672ABBD39A00515808 /* main.m in Sources */,
 				1564B9702ABBD5D400515808 /* CalculatorModel.m in Sources */,
+				15780C362ABC975A00169CDD /* CalculatorView.m in Sources */,
+				15780C3A2ABC99E300169CDD /* CalculatorController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
