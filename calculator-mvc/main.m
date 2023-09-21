@@ -6,11 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CalculatorController.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        CalculatorController *calculatorController = [[CalculatorController alloc] init];
+        [calculatorController runApp];
+
     }
     return 0;
 }
