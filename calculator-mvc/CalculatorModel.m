@@ -9,7 +9,7 @@
 #import "CalculatorModel.h"
 
 @implementation CalculatorModel
-- (float)add:(float)number1 to:(float)number2 {
+- (int)add:(int)number1 to:(int)number2 {
     return number1 + number2;
 }
 @end

@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CalculatorModel : NSObject
-- (float)add:(float)number1 to:(float)number2;
+- (int)add:(int)number1 to:(int)number2;
 
 @end
 

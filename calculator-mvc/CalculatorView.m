@@ -17,8 +17,8 @@
     NSLog(@"Enter number %d: ", num);
 }
 
--(void) displayResult:(float)result num1:(int)num1 num2:(int)num2{
-    NSLog(@"The sum of %d and %d is %f", num1, num2, result);
+-(void) displayResult:(int)result num1:(int)num1 num2:(int)num2{
+    NSLog(@"The sum of %d and %d is %d", num1, num2, result);
 }
 
 @end
